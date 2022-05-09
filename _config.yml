@@ -28,19 +28,19 @@ logo-icon-dark: "/assets/img/branding/P_logo_dark.png"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
-author: Armando Maynez # add your name
-author-pic: Myself_Neon_grey.jpg
-about-author: Engineer, industry executive, research enthusiast. Avid learner with diverse interests in coding, machine learning, artificial intelligence and reinforcement learning. 17+ years of experience working in multinational corporations.
+author: PYLER # add your name
+author-pic: branding/P_logo.png
+about-author: "파일러는 영상 분석 AI를 통해 콘텐츠의 맥락을 이해하고, 가장 어울리는 곳에 광고를 게재하여 브랜드 경험과 성과를 최적화하는 인공지능 마테크(Martech) 스타트업입니다."
 
 # Contact links
-email: armando.maynez@gmail.com # Add your Email address
+email: ceo@pyler.tech # Add your Email address
 phone: # Add your Phone number
 website: https://amaynez.github.io # Add your website
-linkedin: amaynez # Add your Linkedin handle
-github: amaynez # Add your Github handle
-twitter: '@MvmThe' # Add your Twitter handle
-bandcamp: armandomaynez # Add your Bandcamp username
-stackoverflow: stackoverflow # Add your stackoverflow account
+linkedin: company/주식회사-파일러 # Add your Linkedin handle
+github: pylerAI # Add your Github handle
+twitter: # Add your Twitter handle
+bandcamp: # Add your Bandcamp username
+stackoverflow: # Add your stackoverflow account
 
 # Newsletter
 mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
