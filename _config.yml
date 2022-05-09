@@ -51,7 +51,7 @@ comments_curtain: yes # leave empty to show the disqus embed directly
 
 # Tracker
 analytics: G-QYKH11ZB11
-fbadmin: ar.maybach
+# fbadmin: ar.maybach
 
 # Paginate
 paginate: 6
