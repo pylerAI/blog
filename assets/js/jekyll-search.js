@@ -275,13 +275,16 @@ var relativebase = "./";
         if (own_url.includes("/ipfs/")){
           minimumSlashes = 5;
         }
-        // if (countOfSlashes > minimumSlashes){
-        //     relativebase = "";
-        //     var i = 0;
-        //     for (i=minimumSlashes; i < countOfSlashes; i++){
-        //         relativebase = relativebase + "../";
-        //     }
-        //   }
+        if (own_url.includes("/blog")) {
+          minimumSlashes = 4;
+        }
+        if (countOfSlashes > minimumSlashes){
+            relativebase = "";
+            var i = 0;
+            for (i=minimumSlashes; i < countOfSlashes; i++){
+                relativebase = relativebase + "../";
+            }
+          }
 
         options = utils.merge(options, _options)
 
