@@ -1,12 +1,15 @@
 # Site settings
-title: The Minimum Viable Model
+title: PYLER Tech Blog
 description: 'Artificial Intelligence trends and concepts made easy.' # this means to ignore newlines until "baseurl:"
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://the-mvm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/branding/MVM-logo-full.svg"
-logo-icon: "/assets/img/branding/MVM-symbol.svg"
-logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG file
+url: "https://pyler.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# logo: "/assets/img/branding/MVM-logo-full.svg"
+logo: "/assets/img/branding/PYLER_logo.png"
+# logo-icon: "/assets/img/branding/MVM-symbol.svg"
+logo-icon: "/assets/img/branding/P_logo.png"
+# logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG file
+logo-icon-SEO: "/assets/img/branding/P_logo.png"
 
 # Night/Dark mode
 # Default mode is "auto", "auto" is for auto nightshift
@@ -18,9 +21,9 @@ logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG f
 # visit (session). Only the dark mode setting is "manual",
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
-night_mode: "auto"
+night_mode: "on"
 
-logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
+logo-dark: "/assets/img/branding/PYLER_logo.png"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings

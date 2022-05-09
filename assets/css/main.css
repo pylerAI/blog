@@ -581,7 +581,8 @@ svg {
           align-items: center;
 }
 .main-header .logo {
-  width: 80%;
+  margin-top: 8px;
+  width: 50%;
   position: relative;
   text-align: center;
   color:var(--main);
@@ -1320,10 +1321,10 @@ div.tag-cloud{
 
 /* = = = = = = = = = = Github Link Button = = = = = = = = = = */
 .center-container {
-  display: flex;
+  display: inline-block;
   overflow-x: visible;
 }
-.github-button {
+.paper-button {
   margin-top:1em;
   margin-bottom:1em;
   padding: 3px 10px 3px 10px;
@@ -1354,19 +1355,20 @@ div.tag-cloud{
 .button-icon > svg {
   vertical-align: super;
 }
-.button-icon, .github-button a{
-color:var(--main);
-}
-.github-button a{
+.paper-button a{
   font-family: var(--font2);
+  color: var(--main);
   white-space: nowrap;
   text-decoration: none;
 }
-.github-button:hover,.github-button:focus{
+.paper-button > .button-icon {
+  color: var(--main);
+}
+.paper-button:hover,.paper-button:focus{
   border: 1px solid var(--accent);
   cursor:pointer;
   }
-.github-button:hover>a, .github-button:hover>.button-icon{
+.paper-button:hover>a, .paper-button:hover>.button-icon{
 color: var(--accent);
 }
 /* = = = = = = = = = = Code = = = = = = = = = = */
@@ -1489,7 +1491,7 @@ img + small, img + br + small {
 }
 .header-page h1 {
   font-weight: var(--font2-regular);
-  font-size: 4.25rem;
+  font-size: 3rem;
   text-align: left;
   margin: 0 0 10px;
   color: var(--text)
@@ -1713,7 +1715,7 @@ img + small, img + br + small {
     display: inline-block;
     margin-right: 15px;
     margin-left: 15px;
-    width: 380px;
+    /* width: 380px; */
 }
 .author-box .author-img {
   width: 120px;
@@ -1730,8 +1732,8 @@ img + small, img + br + small {
   margin: 0 0 10px;
 }
 .contact-icons {
-    display: inline-block;
-    margin-block-start: 0;
+    display: block;
+    margin: auto;
     padding-inline-start: 0;
     text-align: center;
 }
@@ -1903,7 +1905,7 @@ a.read-more:hover {
 .about-container,
 .post-card-box,
 .blog-tags,
-.github-button,
+.paper-button,
 .tag-master,
 .tag-cloud,
 .toc,
@@ -1932,7 +1934,7 @@ a.read-more:hover {
 .blog-tags,
 .page_meta,
 .toc,
-.github-button,
+.paper-button,
 .sidebar,
 .about-container,
 .pnf-image,
@@ -1981,7 +1983,7 @@ a.read-more:hover {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .main-header .logo {
-  width: 90%;
+  width: 50%;
 }
   .main-header .logo a {
     font-size: 24px;
@@ -2036,7 +2038,7 @@ a.read-more:hover {
     font-size: 14px;
   }
   .main-header .logo {
-  width: 100%;
+  width: 50%;
 }
   .main-header .logo a {
     font-size: 21px;

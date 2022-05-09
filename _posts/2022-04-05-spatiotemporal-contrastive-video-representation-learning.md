@@ -8,7 +8,8 @@ date:   2022-04-05 11:22:00 +0900
 description: Single neuron perceptron that classifies elements learning quite quickly.
 img: posts/20210125/Perceptron.jpg 
 tags: [machine learning, coding, neural networks]
-github:  amaynez/Perceptron/
+github: https://github.com/tensorflow/models/tree/master/official/
+arxiv: https://arxiv.org/pdf/2008.03800v4.pdf
 mathjax: yes
 ---
 

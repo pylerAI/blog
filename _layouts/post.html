@@ -29,6 +29,7 @@ layout: default
         {% include sidebar.html context="post" class="side" id="sidebar" %}
         {% if page.toc %}{% include sidebar-toc.html %}{% endif %}
         {% include github-button.html %}
+        {% include arxiv-button.html %}
         {{page.content | markdownify}}
         {% include sidebar.html context="post" class="inline" id="post-end" %}
         <div class="separator"></div>
