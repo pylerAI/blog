@@ -1,0 +1,53 @@
+[
+    {
+        "name": "장진우",
+        "id": "jin",
+        "description": "안녕하세요 :) 저는 PYLER에서 머신러닝 엔지니어 직책을 맡고 있는 장진우입니다! 컴퓨터 비전 분야에 관심이 많습니다.",
+        "img": "assets/img/authors/jin.jpg",
+        "github": "https://github.com/doldam0",
+        "email": "jinustar19@gmail.com"
+    },
+    {
+        "name": "박상욱",
+        "id": "psycoder",
+        "description": "Machine learning team leader",
+        "linkedin": "https://www.linkedin.com/in/psycoder/",
+        "github": "https://github.com/psycoder21",
+        "email": "psycoder@pyler.tech",
+        "stackoverflow": "https://stackoverflow.com/users/19072857/psycoder",
+        "img": "assets/img/authors/psycoder.png"
+    },
+    {
+        "name": "박동찬",
+        "id": "ted",
+        "description": "주식회사 파일러의 CTO (Chief Technology Officer)/Co-Founder 박동찬입니다.",
+        "linkedin": "https://www.linkedin.com/in/%EB%8F%99%EC%B0%AC-%EB%B0%95-2a6401231/",
+        "github": "https://github.com/ParkDongChan",
+        "email": "cto@pyler.tech",
+        "img": "assets/img/authors/ted.jpg"
+    },
+    {
+        "name": "강화정",
+        "id": "hoa",
+        "description": "안녕하세요 :) 저는 PYLER에서 데이터 분석가를 맡고 있는 강화정입니다.",
+        "github": "https://github.com/Hwajeong-Kang",
+        "email": "ghkwjd7565@gmail.com",
+        "img": "assets/img/authors/hoa.jpg"
+    },
+    {
+        "name": "양의동",
+        "id": "edy",
+        "description": "저는 PYLER에서 머신러닝 엔지니어 직책을 맡고 있는 양의동입니다! NLP에 관심이 많습니다",
+        "email": "yod1073@gmail.com",
+        "img": "assets/img/authors/edy.jpg"
+    },
+    {
+        "name": "전윤회",
+        "id": "hoi",
+        "description": "PYLER 에서 Product designer를 맡고 있는 전윤회 입니다.",
+        "linkedin": "https://www.linkedin.com/in/hoi-hoi/",
+        "github": "https://jeonyoonhoi.github.io/",
+        "mail": "une0927@gmail.com",
+        "img": "assets/img/authors/hoi.jpg"
+    }
+]
