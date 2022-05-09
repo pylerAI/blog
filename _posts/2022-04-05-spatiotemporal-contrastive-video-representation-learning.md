@@ -11,6 +11,7 @@ tags: [machine learning, coding, neural networks]
 github: https://github.com/tensorflow/models/tree/master/official/
 arxiv: https://arxiv.org/pdf/2008.03800v4.pdf
 mathjax: yes
+toc: yes
 ---
 
 ## Post Introduction
