@@ -24,6 +24,7 @@ logo-icon-SEO: "/assets/img/branding/P_logo.png"
 night_mode: "on"
 
 logo-dark: "/assets/img/branding/PYLER_logo_dark.png"
+logo-icon-dark: "/assets/img/branding/P_logo_dark.png"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
