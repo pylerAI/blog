@@ -1239,6 +1239,7 @@ path.fa-secondary {
 }
 .toc-item-1 {
   padding: 8px 0 8px 0;
+  font-size: small;
 }
 .toc-sign {
   float: right;
@@ -1254,9 +1255,9 @@ path.fa-secondary {
   padding-inline-start: 0px;
   list-style:none;
   max-height: 0;
+  padding-top: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  padding-top: 8px;
+  transition: max-height 0.2s ease-out, padding-top 0.2s ease-out;
 }
 .toc-submenu-1 a{
   color:var(--grey1);

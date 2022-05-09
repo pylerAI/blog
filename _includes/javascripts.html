@@ -198,9 +198,11 @@
           var content = this.lastElementChild;
           if (content.style.maxHeight){
             content.style.maxHeight = null;
+            content.style.paddingTop = null;
             this.firstElementChild.nextSibling.innerHTML = chevron_down;
           } else {
             content.style.maxHeight = content.scrollHeight + "px";
+            content.style.paddingTop = "8px";
             this.firstElementChild.nextSibling.innerHTML = chevron_up;
           }
         });
