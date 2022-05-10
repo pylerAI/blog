@@ -47,7 +47,15 @@
         "description": "PYLER 에서 Product designer를 맡고 있는 전윤회 입니다.",
         "linkedin": "https://www.linkedin.com/in/hoi-hoi/",
         "github": "https://jeonyoonhoi.github.io/",
-        "mail": "une0927@gmail.com",
+        "email": "une0927@gmail.com",
         "img": "assets/img/authors/hoi.jpg"
+    },
+    {
+        "name": "차승일",
+        "id": "jet981217",
+        "description": "안녕하세요! 저는 PYLER에서 머신러닝 엔지니어 직책을 맡고 있는 차승일입니다! Computer vision 분야에 관심이 있습니다!",
+        "github": "https://github.com/jet981217",
+        "email": "csi12345678949@gmail.com",
+        "img": "assets/img/authors/jet981217.jpg"
     }
 ]
