@@ -3,7 +3,7 @@ layout: post
 author: ted
 read_time: true
 show_date: true
-title:  "Paper Review: Spatiotemporal Contrastive Video Representation Learning"
+title:  "Spatiotemporal Contrastive Video Representation Learning"
 date:   2022-04-05 11:22:00 +0900
 description: Single neuron perceptron that classifies elements learning quite quickly.
 img: posts/20220405/2.png 
